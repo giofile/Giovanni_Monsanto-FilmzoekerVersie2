@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="movies.js"></script>
+    <script defer src="script.js"></script>
+    <title>MovieChooser</title>
+</head>
+<body>
+    <header>
+            <form class="formDisplay">
+                <input type="text" id ="searchBar" placeholder="Zoek hier een titel op">                    
+            </form>   
+        <h1>MovieChooser</h1>
+    </header>
+    <br>
+        <nav class="menu">
+            <div class=wrap>
+                <input type="radio" id="allmovies" name="movieChooser" value="allmovies" type="radio">
+                <label for="allmovies">Alle Films</label>
+            </div>
+
+            <div class=wrap>
+                <input type="radio" id="newestmovies" name="movieChooser" value="newestMovies" type="radio"> 
+                <label for="newestMovies">Nieuwste Films</label>
+            </div>
+
+            <div class=wrap>
+                <input type="radio" id="avengers" name="movieChooser" value="avengers" type="radio">
+                <label for="avengers">Avengers </label> 
+            </div>
+        
+            <div class=wrap> 
+                <input type="radio" id="x-men" name="movieChooser" value="x-men" type="radio"> 
+                <label for="x-men">X-Men</label>
+            </div>
+
+            <div class=wrap>
+                <input type="radio" id="princess" name="movieChooser" value="princess" type="radio"> 
+                <label for="princess">Princess</label>
+            </div>
+
+            <div class=wrap>
+                <input type="radio" id="batman" name="movieChooser" value="batman" type="radio">
+                <label for="batman">Batman</label>
+            </div>
+        </nav>
+    <br>       
+    <main>
+        <ul id="movieDisplay"></ul>
+    </main>   
+</body>
+</html>
