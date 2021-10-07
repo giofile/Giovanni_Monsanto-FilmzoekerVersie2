@@ -2,7 +2,7 @@
 const movieDisplay = document.querySelector('#movieDisplay')
 
 
-// opstellen van de externe link/afbeelding uit moviedatabase
+// opstellen van de externe link/afbeelding van de moviedatabase
 
 const addMoviesToDom  = (movies) =>{
     let movieListCreation = movies.map ((movie)=>{
